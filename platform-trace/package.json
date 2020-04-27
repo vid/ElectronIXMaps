@@ -1,0 +1,17 @@
+{
+  "name": "express-example",
+  "license": "ISC",
+  "bin": "index.js",
+  "dependencies": {
+    "express": "4.15.2",
+    "raw-socket": "^1.7.0"
+  },
+  "pkg": {
+    "assets": [
+      "views/**/*"
+    ],
+    "targets": [
+      "node8"
+    ]
+  }
+}
