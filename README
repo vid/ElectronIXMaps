@@ -1,47 +1,5 @@
-## Installation
 
-Download our [latest release] and you're off to the races! The supported platforms
-are macOS, Windows (both 32 and 64bits) and GNU/Linux (64bits only).
+pkg version of express+raw-sockets is in platform-traceroute.
 
-<details><summary>NOTE for old GNU/Linux distributions</summary>
-
-You might get the following error:
-
-```
-FATAL:nss_util.cc(632)] NSS_VersionCheck("3.26") failed. NSS >= 3.26 is required.
-Please upgrade to the latest NSS, and if you still get this error, contact your
-distribution maintainer.
-```
-
-If you do, please install NSS (example for Debian / Ubuntu):
-
-```bash
-sudo apt-get install libnss3
-```
-
-</details>
-
-## Development
-
-If you want to hack on this project, here is how you do it.
-
-<details><summary>Show building instructions</summary>
-
-#### Installing dependencies
-
-```bash
-npm install
-```
-
-#### Starting in development mode
-
-```bash
-npm start
-```
-
-#### Building the production distribution
-
-```bash
-npm run dist
-```
+to run: `npm run dist` then find your platform version in dist.
 
